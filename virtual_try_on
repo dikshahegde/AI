@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-RUN wget -O /app/StickersRedmond.safetensors https://huggingface.co/artificialguybr/StickersRedmond/resolve/main/StickersRedmond.safetensors
+RUN wget -O /app/IC_TRY_ON_v3_e4.safetensors https://huggingface.co/camenduru/FLUX.1-dev/resolve/f2fc30eef374ff8311a6796aa4ab9c6fea774075/IC_TRY_ON_v3_e4.safetensors
 
 RUN pip3 install torch safetensors
 
