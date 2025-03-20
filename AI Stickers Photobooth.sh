@@ -6,7 +6,6 @@ CUSTOM_NODES_PATH="../custom_nodes"
 
 # Create necessary directories if they don't exist
 mkdir -p "$BASE_PATH/checkpoints"
-mkdir -p "$BASE_PATH/LLM"
 mkdir -p "$BASE_PATH/pulid"
 mkdir -p "$BASE_PATH/loras"
 mkdir -p "$BASE_PATH/pulidflux"
